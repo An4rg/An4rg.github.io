@@ -1,0 +1,85 @@
+body {
+  background-color: #24273a;
+}
+
+.image_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex-direction: row;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.image_container img {
+  flex: 1 1 250px;
+  min-width: 0;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+header h1 {
+  color: #cad3f5;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 38px;
+  text-align: center;
+  grid-column: 2;
+
+}
+header button {
+  grid-column: 3;
+  justify-self: end;
+}
+
+button {
+  background-color: #c6a0f6;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 13px;
+  font-family: "Space Mono", monospace;
+}
+
+h2 {
+  color: #cad3f5;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+h3 {
+  color: #cad3f5;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 23px;
+  text-align: center;
+}
+p {
+  color: #cad3f5;
+  font-family: "Space Mono", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 7%;
+
+  padding-right: 7%;
+}
+
+a {
+  color: #ed8796;
+  font-family: "Space Mono", monospace;
+  font-weight: 500;
+  font-size: 20px;
+}
