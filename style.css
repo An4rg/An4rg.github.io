@@ -102,5 +102,5 @@ a {
   color: #ed8796;
   font-family: "Space Mono", monospace;
   font-weight: 500;
-  font-size: 20px;
+  font-size: var(--base-text-font-size);
 }
