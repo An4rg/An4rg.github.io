@@ -104,3 +104,11 @@ a {
   font-weight: 500;
   font-size: var(--base-text-font-size);
 }
+
+footer {
+  background-color: #363a4f;
+  border-radius: 12px;
+  padding: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
